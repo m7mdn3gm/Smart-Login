@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #18181a;
+}
+a {
+    text-decoration: none;
+}
+.login {
+    width: 50%;
+    margin: 70px auto;
+    box-shadow: 0 0 10px #00000050;
+    border-radius: 10% 20% 10% 20% / 20% 10% 20% 10% ;
+    padding: 30px;
+    background-color: #27272a;
+}
+button,.alert {
+    border-radius: 10% 20% 10% 20% / 20% 10% 20% 10% !important ;
+}
+.alert {
+    padding: 8px 0 !important;
+}
+.login h2 {
+    color: #17a2b8;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.login p a,
+.login p {
+    color: #ccc;
+    font-weight: 500;
+    font-size: 17px;
+}
+.login input {
+    background-color: #27272a;
+    caret-color: #ccc;
+    color: #ccc !important;
+    font-weight: 500 !important;
+    border-radius: 10% 20% 10% 20% / 20% 10% 20% 10% ;
+}
+.login input::placeholder {
+    color: #ccc;
+}
+.login input:focus {
+    box-shadow: none;
+    background-color: #24353f;
+}
+@media (max-width: 730px) {
+    .login h2 {
+        font-size: 25px;
+    }
+}
+@media (max-width: 500px) {
+    .login {
+        width: 90%;
+    }
+}
+/* ======= Start hello.html ======== */
+.header {
+    box-shadow: 0 0 10px #00000050;
+    padding: 0 10%;
+}
+section .login {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+#welcome {
+    color: #ccc;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* ====== End hello.html ========= */
